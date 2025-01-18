@@ -8109,6 +8109,9 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: white !important;
+  font-family: "Dela Gothic One", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .text-black-50 {
@@ -10901,10 +10904,16 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  background: rgb(201,254,255);
+  background: linear-gradient(47deg, rgba(201,254,255,1) 0%, rgba(247,161,255,1) 100%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  background: rgb(201,254,255) !important;
+  background: linear-gradient(47deg, rgba(201,254,255,1) 0%, rgba(247,161,255,1) 100%) !important; 
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
 @media (min-width: 992px) {
   #mainNav {
