@@ -217,6 +217,7 @@ blockquote {
 
 b,
 strong {
+  font-size: x-large;
   font-weight: bolder;
 }
 
